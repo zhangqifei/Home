@@ -1,115 +1,179 @@
 <!doctype html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>张琦飞</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
     <script src="javascripts/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
+</head>
+<body>
+<div class="wrapper">
+    <header>
+
         <h1 class="header">张琦飞</h1>
         <p class="header">前端学习点滴，千里之行，始于足下！</p>
 
         <ul>
-          <li class="download"><a class="buttons" href="javascript:;">QQ:1353250703</a></li>
-          <li class="download"><a class="buttons" href="javascript:;">TEL:18632097220</a></li>
-          <li><a class="buttons github" href="https://github.com/zhangqifei/myblog">View On GitHub</a></li>
+            <li class="download"><a class="buttons" href="javascript:;">QQ:1353250703</a></li>
+            <li class="download"><a class="buttons buttonss" href="javascript:;">微信:zqf-Happy</a></li>
+            <li class="download"><a class="buttons buttonst" href="javascript:;">TEL:18632097220</a></li>
+
         </ul>
 
-        <p class="header">出自 <a class="header name" href="https://github.com/zhangqifei">张琦飞</a></p>
+        <p class="header"><a class="header name" href="https://github.com/zhangqifei">GitHub地址</a></p>
 
 
-      </header>
-      <section>
+    </header>
+    <section>
         <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>有关this的五种情况</h3>
+            <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span
+                    aria-hidden="true" class="octicon octicon-link"></span></a><strong>有关this的五种情况</strong></h3>
+        <p>
+        <div class="col-md-12 column">
+            <ol>
+                <li>
+                    <span>声明位于文档中的最前面，处于 标签之前。告知浏览器的解析器，用什么文档类型 规范来解析这个文档。</span>
+                </li>
+                <li>
+                    <span><span>严格模式的排版和 JS 运作模式是以该浏览器支持的最高标准运行。</span></span>
+                </li>
+                <li>
+                    <span><span><span>在混杂模式中，页面以宽松的向后兼容的方式显示。模拟老式浏览器的行为以防止站点无法工作。</span></span></span>
+                </li>
+                <li>
+                    <span><span><span><span>DOCTYPE不存在或格式不正确会导致文档以混杂模式呈现。</span></span></span></span>
+                </li>
+            </ol>
+        </div></p>
 
-<p>1、看函数执行的时候,函数名之前是否有".",有的话"."前面是谁this就是谁,没有的话this就是window  2、自执行函数中的this永远是window  3、给元素的某一个事件绑定方法,当事件触发的时候,方法中的this是当前元素本身  4、在构造函数模式中,我们的this.xxx=xxx中的this是当前的类的一个实例  5、call和apply强制改变this的指向->以上所有的this情况在遇到call/apply的时候都不好使,都已强制改变的为主
-  obj.fn.call(1);//this->1 </p>
+        <h3>
+            <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span
+                    aria-hidden="true" class="octicon octicon-link"></span></a><strong>Doctype作用? 严格模式与混杂模式如何区分？它们有何意义?</strong></h3>
+        <p>
+        <div class="col-md-12 column">
+            <ol>
+                <li>
+                    <span>声明位于文档中的最前面，处于 标签之前。告知浏览器的解析器，用什么文档类型 规范来解析这个文档。</span>
+                </li>
+                <li>
+                    <span><span>严格模式的排版和 JS 运作模式是以该浏览器支持的最高标准运行。</span></span>
+                </li>
+                <li>
+                    <span><span><span>在混杂模式中，页面以宽松的向后兼容的方式显示。模拟老式浏览器的行为以防止站点无法工作。</span></span></span>
+                </li>
+                <li>
+                    <span><span><span><span>DOCTYPE不存在或格式不正确会导致文档以混杂模式呈现。</span></span></span></span>
+                </li>
+            </ol>
+        </div></p>
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Doctype作用? 严格模式与混杂模式如何区分？它们有何意义?</h3>
+        <h3>
+            <a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span
+                    aria-hidden="true" class="octicon octicon-link"></span></a><strong>前端页面有哪三层构成，分别是什么？作用是什么？</strong></h3>
+        <p>
+        <div class="col-md-12 column">
+            <ol>
+                <li>网页的结构层（structural layer）由 HTML 或
+                    XHTML之类的标记语言负责创建。标签，也就是那些出现在尖括号里的单词，对网页内容的语义含义做出了描述，但这些标签不包含任何关于如何显示有关内容的信息。例如，P
+                    标签表达了这样一种语义：“这是一个文本段。”
+                </li>
+                <li>网页的表示层（presentation layer） 由 CSS 负责创建。 CSS 对“如何显示有关内容”的问题做出了回答。</li>
+                <li>网页的行为层（behavior layer）负责回答“内容应该如何对事件做出反应”这一问题。这是 Javascript 语言和 DOM 主宰的领域。
+                </li>
+            </ol>
+        </div></p>
 
-<p>（1）、 声明位于文档中的最前面，处于 标签之前。告知浏览器的解析器，用什么文档类型 规范来解析这个文档。 
-
-　　（2）、严格模式的排版和 JS 运作模式是以该浏览器支持的最高标准运行。
-
-　　（3）、在混杂模式中，页面以宽松的向后兼容的方式显示。模拟老式浏览器的行为以防止站点无法工作。
-
-　　（4）、DOCTYPE不存在或格式不正确会导致文档以混杂模式呈现。</p>
-
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>前端页面有哪三层构成，分别是什么？作用是什么？</h3>
-
-<p>网页的结构层（structural layer）由 HTML 或 XHTML 之类的标记语言负责创建。标签，也就是那些出现在尖括号里的单词，对网页内容的语义含义做出了描述，但这些标签不包含任何关于如何显示有关内容的信息。例如，P 标签表达了这样一种语义：“这是一个文本段。”
-网页的表示层（presentation layer） 由 CSS 负责创建。 CSS 对“如何显示有关内容”的问题做出了回答。
-网页的行为层（behavior layer）负责回答“内容应该如何对事件做出反应”这一问题。这是 Javascript 语言和 DOM 主宰的领域。</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ajax是什么?  ajax的交互模型? 同步和异步的区别? 如何解决跨域问题?</h3>
-
-<p>ajax(动态网站静态化)伴随的goole 的推动，越来越多的站点开始使用了，在开大ajax(动态网站静态化)程序的时候会遇到很多的问题，主要有以下几个方面： 
-    1.跨浏览器问题 
-    2.历史后退状态问题 
-
-    3.跨域问题 
-    跨浏览器的问题因为现在有很多的开元的框架已经解决了，我们无需为此而烦恼。
-    历史后退状态问题我们可以使用一个数组来保存历史纪录，然后把这些数据村到历史对象中去，中的也可以解决，并且还有很多的开元框架给与支持，这样问题就不是很大。 
-    跨域的问题就不是很好的解决，但是还是有办法的，一下给出一些基本的解决方案供大家选择： 
-    1.使用代理，你可以使用web端的程序编写代理程序，把所有的ajax(动态网站静态化)请求的数据进行转发，web程序可以使php(做为现在的主流 开发语言)，jsp(SUN企业级应用的首选)，asp等所有的编程语言。相信大家对这种方式一定很熟悉，这里就不详细的介绍了。 
-    2.使用iframe的方式来定势的刷新叶面，这种方式只是取得数据来显示，并不能真正的和求得的数据进行交互，转化成本页面的动态数据，不是很可取，应用也不是很多，我也忽略不去讨论了。 
-    3.使用apache(Unix平台最流行的WEB服务器平台)的代理功能，主要就是apache(Unix平台最流行的WEB服务器平台)的方向代理， 或者是url从定向，你也可以把其他的站点直接的挂在自己的网站上，这样的方式可能会友邦权的问题，多的九部介绍了，有兴趣的本有可以自己实践以下。 
-    4.使用《script》标签的方式，这样的话就可以保正使用真正的ajax(动态网站静态化)来跨域，并且可以使用返回来的数据，发誓很简单，在我们的后台程序处理后的到的结果都直接的用javascript 的方式返回，在我们的html中直接的使用返回数据的变量就可以了一个简单的例子 </p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>如何居中一个浮动元素?</h3>
-
-<p>给div设置一个宽度，然后添加margin:0 auto属性
-
-　　div{    width:200px;    margin:0 auto; }  
-
-
-
-　　居中一个浮动元素
-
-
-　　确定容器的宽高 宽500 高 300 的层  设置层的外边距 .div {   Width:500px ; height:300px;//高度可以不设  Margin: -150px 0 0 -250px;  position:relative;相对定位  background-color:pink;//方便看效果  left:50%;  top:50%;} 
-
-
-　　列出display的值，说明他们的作用。position的值， relative和absolute定位原点是？
-
-
-　　1.block 象块类型元素一样显示。  none 缺省值。象行内元素类型一样显示。  inline-block 象行内元素一样显示，但其内容象块类型元素一样显示。  list-item 象块类型元素一样显示，并添加样式列表标记。  
+        <h3>
+            <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span
+                    aria-hidden="true" class="octicon octicon-link"></span></a><strong>ajax是什么?  ajax的交互模型? 同步和异步的区别? 如何解决跨域问题?</strong>
+        </h3>
+        <p><div class="col-md-12 column">
+            <ol>
+                <li><span>跨浏览器问题</span></li>
+                <li><span>历史后退状态问题</span></li>
+                <li><span>跨域问题
+                <div class="col-md-12 column">
+                            <ol>
+                                <li><span>使用代理，你可以使用web端的程序编写代理程序，把所有的ajax(动态网站静态化)请求的数据进行转发，web程序可以使php(做为现在的主流开发语言)，jsp(SUN企业级应用的首选)，asp等所有的编程语言。相信大家对这种方式一定很熟悉，这里就不详细的介绍了。</span></li>
+                                <li><span>使用iframe的方式来定势的刷新叶面，这种方式只是取得数据来显示，并不能真正的和求得的数据进行交互，转化成本页面的动态数据，不是很可取，应用也不是很多，我也忽略不去讨论了。</span></li>
+                                <li><span>使用apache(Unix平台最流行的WEB服务器平台)的代理功能，主要就是apache(Unix平台最流行的WEB服务器平台)的方向代理，
+        或者是url从定向，你也可以把其他的站点直接的挂在自己的网站上，这样的方式可能会友邦权的问题，多的九部介绍了，有兴趣的本有可以自己实践以下。</span></li>
+                                <li><span>使用《script》标签的方式，这样的话就可以保正使用真正的ajax(动态网站静态化)来跨域，并且可以使用返回来的数据，发誓很简单，在我们的后台程序处理后的到的结果都直接的用javascript的方式返回，在我们的html中直接的使用返回数据的变量就可以了一个简单的例子</span></li>
 
 
-　　2. absolute　生成绝对定位的元素，相对于 static 定位以外的第一个父元素进行定位。
+                            </ol>
+                        </div></span></li>
+            </ol>
+        </div></p>
 
+        <h3>
+            <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span
+                    aria-hidden="true" class="octicon octicon-link"></span></a><strong>如何居中一个浮动元素?</strong></h3>
+        <p>给div设置一个宽度，然后添加margin:0 auto属性div{    width:200px;    margin:0 auto; }  居中一个浮动元素确定容器的宽高 宽500 高 300 的层  设置层的外边距 .div {   Width:500px ; height:300px;//高度可以不设  Margin: -150px 0 0 -250px;  position:relative 相对定位  background-color:pink;//方便看效果  left:50%;  top:50%;} 列出display的值，说明他们的作用。
+            position的值， relative和absolute定位原点是？
+            1.block 象块类型元素一样显示。  none 缺省值。象行内元素类型一样显示。  inline-block 象行内元素一样显示，但其内容象块类型元素一样显示。  list-item象块类型元素一样显示，并添加样式列表标记。  
+            2. absolute　生成绝对定位的元素，相对于 static 定位以外的第一个父元素进行定位。fixed （老IE不支持）        生成绝对定位的元素，相对于浏览器窗口进行定位。relative 　生成相对定位的元素，相对于其正常位置进行定位。static  默认值。没有定位，元素出现在正常的流中  *（忽略 top, bottom, left, right z-index 声明）。inherit 规定从父元素继承 position 属性的值。</p>
 
-　　fixed （老IE不支持）        生成绝对定位的元素，相对于浏览器窗口进行定位。   
+        <h3>
+            <a id="Advertising-support" class="anchor" href="#support-or-contact" aria-hidden="true"><span
+                    aria-hidden="true" class="octicon octicon-link"></span></a><strong>数组去重</strong></h3>
+        <p><pre>  var a = [1,2,3,4,3,2,2,3,4,5,4,3,2,23];
+    for(var i=0; i< a.length-1; i++){
+        for(var j=i+1; j< a.length; j++){
+            if(a[i] === a[j]){
+                a[j] = a[a.length-1];
+                a.length--;
+                j--;
+            }
+        }
+    }
+    console.log(a);
+</pre></p>
 
+        <h3>
+            <a id="Bubble-sort" class="anchor" href="#support-or-contact" aria-hidden="true"><span
+                    aria-hidden="true" class="octicon octicon-link"></span></a><strong>数组去重</strong></h3>
+        <p><pre>  function bubbleSort(a){
+        var flag = false;
+        for(var i=0; i< a.length-1; i++){
+            for(var j=0; j< a.length-1-i; j++){
+                if(a[j]>a[j+1]){
+                    flag = true;
+                    a[j] = a[j] + a[j+1];
+                    a[j+1] = a[j] - a[j+1];
+                    a[j] = a[j] - a[j+1];
+                }
+            }
+            if(flag){
+                flag = false;
+            }else{
+                break;
+            }
+        }
+        return a;
+    }
+    var  a = [5,3,4,6,7,8,9];
+    console.log(bubbleSort(a));
 
-　　relative 　生成相对定位的元素，相对于其正常位置进行定位。   
-
-
-　　static  默认值。没有定位，元素出现在正常的流中  *（忽略 top, bottom, left, right z-index 声明）。
-
-
-　　inherit 规定从父元素继承 position 属性的值。</p>
-      </section>
-      <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-      </footer>
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		
-  </body>
+</pre></p>
+    </section>
+    <footer>
+        <p>
+            <small class="smalll">对互联网强烈的好奇心和浓厚的兴趣，驱使我不断学习，积累知识，不断去了解新的前沿技能</small>
+        </p>
+    </footer>
+</div>
+<!--[if !IE]>
+<script>fixScale(document);</script><![endif]-->
+<script src="javascripts/bootstrap.min.js"></script>
+<script src="javascripts/npm.js"></script>
+</body>
 </html>
