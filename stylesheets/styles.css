@@ -402,7 +402,7 @@ footer .smalll {
     }
     footer .smalll {
     display: block;
-    width: 240px;
+    width: 100%;
     font-size: 18px;
 }
 }
@@ -431,7 +431,7 @@ footer .smalll {
     }
     footer .smalll {
     display: block;
-    width: 240px;
+    width: 100%;
     font-size: 18px;
 }
 }
@@ -451,7 +451,7 @@ footer .smalll {
     }
     footer .smalll {
     display: block;
-    width: 240px;
+    width: 100%;
     font-size: 18px;
 }
 
@@ -465,7 +465,7 @@ footer .smalll {
     }
     footer .smalll {
     display: block;
-    width: 240px;
+    width: 100%;
     font-size: 18px;
 }
 }
