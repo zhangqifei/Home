@@ -400,6 +400,11 @@ footer .smalll {
         top: 56px;
         width: 232px;
     }
+    footer .smalll {
+    display: block;
+    width: 240px;
+    font-size: 18px;
+}
 }
 
 @media print, screen and (max-width: 720px) {
@@ -424,6 +429,11 @@ footer .smalll {
     header ul, header p.view {
         position: static;
     }
+    footer .smalll {
+    display: block;
+    width: 240px;
+    font-size: 18px;
+}
 }
 
 @media print, screen and (max-width: 480px) {
@@ -439,6 +449,11 @@ footer .smalll {
     footer a {
         display: block;
     }
+    footer .smalll {
+    display: block;
+    width: 240px;
+    font-size: 18px;
+}
 
 }
 
@@ -448,4 +463,9 @@ footer .smalll {
         font-size: 12pt;
         color: #444;
     }
+    footer .smalll {
+    display: block;
+    width: 240px;
+    font-size: 18px;
+}
 }
