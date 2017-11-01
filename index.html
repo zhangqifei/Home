@@ -9,7 +9,21 @@
     <meta name="keywords" content="个人简历,张琦飞的个人简历"/>
     <meta name="description" content="个人简历,张琦飞的个人简历"/>
     <title>个人简历</title>
-
+    <script>
+        ~function () {
+            var reg1 = /AppleWebKit.*Mobile/i,
+                reg2 = /MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/;
+            if (reg1.test(navigator.userAgent) || reg2.test(navigator.userAgent)) {
+                /*  if (/iPad/i.test(navigator.userAgent)) {
+                 //alert("PAD")
+                 } else {
+                 // alert("手机")
+                 }*/
+            } else {
+                alert("手机上查看最佳!");
+            }
+        }();
+    </script>
     <link rel="stylesheet" charset="utf-8" type="text/css" href="css/reset.min.css" />
     <link rel="stylesheet" charset="utf-8" type="text/css" href="css/swiper.min.css" />
     <link rel="stylesheet" charset="utf-8" type="text/css" href="css/index.css" />
