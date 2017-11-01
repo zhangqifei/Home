@@ -1,280 +1,152 @@
 <!DOCTYPE html>
-<html lang="zh-cmn-Hans">
+<html lang="en">
 <head>
-    <title>张琦飞</title>
     <meta charset="UTF-8">
-    <meta name="keywords" content="张琦飞">
-    <meta name="description" content="张琦飞,95后，天蝎座普通男青年！爱折腾，爱运动，更爱游离于错综复杂的编码与逻辑中，无法自拔。相信编程是一门艺术，自诩为游弋在代码里的人生。">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="renderer" content="webkit">
-    <meta name="author" content="luuman">
-    <meta name="version" content="6.0.3">
-    <link rel="apple-touch-icon-precomposed" href="">
-    <link rel="shortcut icon" type="image/ico" href="img/favicon.png">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <!-- 运行浏览器全屏 -->
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta name="keywords" content="个人简历,张琦飞的个人简历"/>
+    <meta name="description" content="个人简历,张琦飞的个人简历"/>
+    <title>个人简历</title>
 
-    <link rel="stylesheet" href="css/global.css"/>
-    <link rel="stylesheet" href="css/index.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
-
-    <!-- 低版本跳转 -->
-    <!--[if lt IE 10]>
-    <script>window.location.href="http://zhangqifei.github.io/Works/PC/IE/";</script>
-    <![endif]-->
+    <link rel="stylesheet" charset="utf-8" type="text/css" href="css/reset.min.css" />
+    <link rel="stylesheet" charset="utf-8" type="text/css" href="css/swiper.min.css" />
+    <link rel="stylesheet" charset="utf-8" type="text/css" href="css/index.css" />
 </head>
 <body>
-    <div id="v4-pre-loaded">
-        <div class="loading"></div>
-    </div>
-    <img src="img/logo-search.jpg" alt="zhangqifei" style="visibility:hidden;position: absolute;top: 0;left: 0;">
-    <a class="music-wrap" id="smohan-v4-music" rel="title-tip" data-music-src="music/李玉刚 - 刚好遇见你.mp3" data-music-flag="Y" title="刚好遇见你">
-        <img src="music/Asher Book - Try.jpg" alt="音乐播放器">
-        <span class="switch"><i></i>
-        </span>
-    </a>
-    <a class="u-menu-btn" title="导航" rel="title-tip">
-        <span>&nbsp;</span>
-        <span>&nbsp;</span>
-        <span>&nbsp;</span>
-    </a>
-    <div class="nav-mask">&nbsp;</div>
-    <nav id="navgation">
-        <div class="nav-wrapper">
-            <ul class="nav">
-                <li>
-                    <a href="http://zhangqifei.github.io/">博客</a>
-                </li>
-                <li>
-                    <a href="http://www.jianshu.com/u/b3d1d196e0fc">简书文章</a>
-                </li>
-                <li>
-                    <a href="http://zhangqifei.github.io/about/">留言</a>
-                </li>
-                <li>
-                    <a href="http://jsdig.com/">前端导航网</a>
-                </li>
-            </ul>
-            <span class="logo"></span>
+    <section id="main" class="main">
+        <!--MUSIC-->
+        <div class="music" id="musicMenu">
+            <audio id="musicAudio" src="audio/Audio.mp3" preload="none" loop ></audio>
         </div>
-    </nav>
-    <article id="smohan-v4-container">
-        <section class="page1">
+        <!-- CONTENT -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- slide 1 action -->
+                <div class="swiper-slide page1">
 
-                <div class="banner-canvas" style="position: absolute; z-index: 1;top: 0;left:0;">
-                    <canvas></canvas>
+                    <!-- center -->
+                    <img src="img/one/1.bg.jpg"/>
+                    <img src="img/one/1.center.png"/>
+                    <img src="img/one/1.center_left.png"/>
+                    <img src="img/one/1.center_right.png"/>
+                    <!--<img id="start" src="../img/one/1.center_down.png"/>-->
+
+                    <!-- left -->
+                    <img src="img/one/1.left_up.png"/>
+                    <img src="img/one/1.left_center.png"/>
+                    <img src="img/one/1.left_down.png"/>
+                    <!-- right -->
+                    <img src="img/one/1.right_up.png"/>
+                    <img src="img/one/1.right_center.png"/>
+                    <img src="img/one/1.right_down.png"/>
+
+                    <img src="img/one/1.titles.png"/>
+                    <span id="start" class="">点击播放</span>
                 </div>
-                <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
-                <script src="js/canvas/bootstrap.min.js"></script>
-                <script src="js/canvas/ban.js"></script>
-            <div class="grid-auto-wrapper page-init">
-                <div class="inner tans">
-                    <h1>2015，一张白纸</h1>
-                    <h3>Cruising In The Code Of Life</h3>
-                    <div class="m-driver">
-                        <div class="inner">
-                            <span class="logo"></span>
-                            <a href="http://zhangqifei.github.io/" class="button" name="张琦飞的博客">进入博客</a>
-                        </div>
-                    </div>
+                <!-- slide 2  Job-->
+                <div class="swiper-slide page2">
+                    <img src="img/two/2.bg1.png"/>
+                    <img src="img/two/2.bg2.jpg"/>
+                    <img src="img/two/2.littePeople.png"/>
+                    <img src="img/two/2.bg1.png"/>
+                    <h2>工作经历</h2>
+
+                    <section class="item1">
+                        <img class="circleInner" src="img/two/2.circle_center.png"/>
+                        <img class="circleOuter" src="img/two/2.circle_up.png"/>
+                        <span class="time1">2016.7 -  2017.10</span>
+                        <span class="detail1">北京慧修天下科技有限公司</span>
+                    </section>
+
                 </div>
-                <a class="next-page" id="next-page-for-init"></a>
-            </div>
-        </section>
-        <section class="page2">
-            <div class="grid-auto-wrapper">
-                <div class="article-wrap">
-                    <div class="m-phone shadow"></div>
-                    <div class="m-phone blog">
-                        <header>Latest Posts</header>
-                        <div class="post-cover f-img-light-wrap">
-                            <a href="http://zhangqifei.github.io/5044/">
-                                <img src="img/1452153380.jpg" alt="2016，新年来一发"/>
-                            </a>
-                        </div>
-                        <div class="post-item">
-                            <ul>
-                                <li>
-                                    <a href="http://zhangqifei.top/2012/05/16/1/" title="Git、META清单" class="f-toe"  rel="title-tip">git.META清单</a>
-                                </li>
-                                
-                            </ul>
-                        </div>
-                        <a class="button" href="http://zhangqifei.github.io/">进入博客</a>
-                    </div>
+                <!-- slide 3  skill-->
+                <div class="swiper-slide page3">
+
+                    <img src="img/three/3.bg.jpg"/>
+                    <img src="img/three/3.RunpPeople.gif"/>
+                    <img src="img/three/3.tree1.png"/>
+                    <img src="img/three/3.tree2.png"/>
+                    <img src="img/three/3.tree3.png"/>
+                    <img src="img/three/3.bg2.jpg"/>
+                    <img src="img/three/3.stopPeople.png"/>
+                    <img src="img/three/3.flyPeople.png"/>
+                    <h2>专业技能</h2>
+
+                    <section class="flyCon">
+                        <span>JavaScript</span>
+                        <span>HTML5</span>
+                        <span>Css3</span>
+                        <span>AJAX</span>
+                        <span>BootStrap</span>
+                        <span>jQuery</span>
+                        <span>EasyUI</span>
+                        <span>Promise</span>
+                        <span>SVN</span>
+                        <span>MongoDb</span>
+                        <span>gulp</span>
+                        <span>GitHub</span>
+                        <span>AngularJs</span>
+                        <span>webpack</span>
+                        <span>ReactJs</span>
+                        <span>PS</span>
+                    </section>
+
+                    <section class="skillCon">
+                        <p>
+                            &emsp;&emsp;熟练掌握 HTML、DIV+CSS，理解盒子模型，熟练运用 HTML 标签语义化，编写符合 W3C 标准的页面代码；<br/>
+                            &emsp;&emsp;熟练掌握原生javascript，熟练使用 jQuery，熟悉面向对象、设计模式；<br/>
+                            &emsp;&emsp;掌握HTML5、CSS3，能够应用rem、@media、Bootstrap进行响应式布局开发，熟悉Swiper、Iscroll、 Zepto、FastClick、touch.js等移动端常用插件；<br/>
+                            &emsp;&emsp;熟练使用Ajax、jsonp、CORS的前后台数据交互，熟悉客户端与服务器交互机制；熟悉Node 和常用 ES6 语法，熟悉数据库MongoDb；<br/>
+                            &emsp;&emsp;熟练使用Git、SVN进行项目的管理，可以使用gulp、webpack等自动化平台进行项目的部署和打包，便于团队协作<br/>
+                            &emsp;&emsp;熟练使用主流Vue.js、Angular.js、React.js等框架；<br/>
+                            &emsp;&emsp;熟悉PS，对网站优化有一定了解；<br/>
+                    </section>
+
                 </div>
-                <div class="about-wrap">
-                    <div class="inner">
-                        <div class="m-about">
-                            <h1>关于张琦飞</h1>
-                            <p>
-                                95后，天蝎座普通男青年，毕业于河北一所普通大学的计算机应用专业。
-                                <br/>
-                                爱折腾，爱运动，更爱游离于错综复杂的编码与逻辑中，无法自拔。从事于WEB前端开发。喜欢敲代码的感觉，相信编程是一门艺术，
-                                <br>游弋在代码里的人生</p>
-                        </div>
-                        <div class="m-time">
-                            <div class="m-time-run" id="smohan-build-time">
-                                <div class="line left"></div>
-                                <div class="line right"></div>
-                                <span>
-                                    <i>15</i>
-                                </span>
-                                <span>
-                                    <i>12</i>
-                                </span>
-                                <span>
-                                    <i>21</i>
-                                </span>
-                                <span>
-                                    <i>9</i>
-                                </span>
-                                <span>
-                                    <i>00</i>
-                                </span>
-                                <span>
-                                    <i>11</i>
-                                </span>
-                            </div>
-                            <div class="m-time-run txt">
-                                <span>年</span>
-                                <span>个月</span>
-                                <span>天</span>
-                                <span>小时</span>
-                                <span>分钟</span>
-                                <span>秒</span>
-                            </div>
-                            <div class="m-time-start">从2015年12月21日9:00开始</div>
-                        </div>
-                    </div>
+
+                <!-- slide 4 project-->
+                <div class="swiper-slide page4">
+                    <img src="img/four/4.bg.jpg"/>
+                    <img src="img/four/4.rightBottom.png"/>
+                    <img src="img/four/4.floatCenter.png"/>
+                    <h2>项目经验</h2>
+                    <section class="pCon">
+                        <i></i>
+                        <span>北京慧修天下科技有限公司企业官网</span>
+                        <i></i>
+                        <span>移动端网站(http://m.jxrsrc.com/)</span>
+                        <i></i>
+                        <span>邀请函、贺卡和各种活动页面等</span>
+                        <i></i>
+                        <span>前卫之路家居网</span>
+                        <i></i>
+                        <span>慧修天下管理系统</span>
+                    </section>
                 </div>
-            </div>
-        </section>
-        <section class="page3" style="background: url(img/231379.jpg) no-repeat;">
-            <div class="grid-auto-wrapper">
-                <div class="m-works-wrap">
-                    <div class="m-text">
-                        <div class="inner">
-                            <h1>不忘 · 初心</h1>
-                            <p>一切的创造，源于热爱...</p>
-                            <p>回溯最初，在最简洁中传递情感，在代码里游弋人生...</p>
-                            <a href="http://zhangqifei.github.io/works/" class="button">更多作品</a>
-                        </div>
-                    </div>
-                    <div class="m-driver">
-                        <div class="m-phone shadow"></div>
-                        <div class="m-phone works">
-                            <header>Latest Works</header>
-                            <div class="post-cover f-img-light-wrap">
-                                <a href="http://zhangqifei.github.io/works/1017/">
-                                    <img src="img/1431799247.png" alt="个人博客界面"/>
-                                </a>
-                            </div>
-                            <div class="post-item">
-                                <ul>
-                                    <li>
-                                        <a href="http://zhangqifei.github.io/works/" title="移动端聊天界面" class="f-toe"  rel="title-tip">移动端聊天界面</a>
-                                    </li>
-                                    
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+
+                <!-- slide 5 education experience-->
+                <div class="swiper-slide page5">
+                    <img src="img/five/5.bg.jpg"/>
+                    <section class="info">
+                        <span>张琦飞</span>
+                        <span>186320<br/>97220</span>
+                        <span>意向:</span>
+                        <span>前端开发<br/>工程师</span>
+                        <span>专业:</span>
+                        <span>计算机<br/>应用技术</span>
+                        <span>拥有13个月<br/>开发经验</span>
+                    </section>
                 </div>
             </div>
-        </section>
-        <section class="page4">
-            <div class="grid-auto-wrapper">
-                <div class="m-contact-wrap">
-                    <div class="m-driver">
-                        <div class="inner">
-                            <ul>
-                                <li>
-                                    <a href="http://weibo.com/u/3946411169/home"  target="_blank" title="关注我的新浪微博">
-                                        <i class="u-icon icon-weibo"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="tencent://message/?Menu=yes&uin=1353250703"  target="_blank" title="QQ交谈:1353250703">
-                                        <i class="u-icon icon-qq"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://github.com/zhangqifei"  target="_blank" title="GitHub">
-                                        <i class="u-icon icon-github"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="m-contact">
-                        <div class="txt">
-                            <p>
-                                联系QQ：
-                                <a href="javascript:;" >1353250703</a>
-                            </p>
-                            <p>
-                                唯一网址：
-                                <a href="http://zhangqifei.github.io/"  target="_blank" >http://zhangqifei.github.io/</a>
-                            </p>
-                            <p>
-                                新浪微博：
-                                <a href="http://weibo.com/u/3946411169/home"  target="_blank" >http://weibo.com/lishangmou</a>
-                            </p>
-                            <p>
-                                电子邮箱：
-                                <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=98bEwsTFwsfAx8S3hobZlJia"  target="_blank" >1353250703@qq.com</a>
-                                或
-                                <a href="javascript:;">zqf@whatsmax.com</a>
-                            </p>
-                            <p class="btn-groups">
-                                <a class="btn" rel="title-tip" title="群号：********* ">JavaScript交流群</a>
-                                <a class="btn" rel="title-tip" title="群号：*********">Mobile交流群</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="page5" style="background: url(img/41383.jpg) no-repeat;">
-            <div class="grid-auto-wrapper">
-                <div class="m-link-wrap">
-                    <div class="inner">
-                        <div class="u-qr-code"></div>
-                        <div class="links">
-                            <ul>
-                                <li>
-                                    <a href="" title="Doyoe's Blog" rel="title-tip" class="f-toe">Doyoe's Blog</a>
-                                </li>
-                                <li>
-                                    <a href="" title="MOxFIVE's Blog" rel="title-tip" class="f-toe">MOxFIVE's Blog</a>
-                                </li>
-                                <li>
-                                    <a href="" title="Dandy's Blog" rel="title-tip" class="f-toe">Dandy's Blog</a>
-                                </li>
-                                <li>
-                                    <a href="" title="kayo's Blog" rel="title-tip" class="f-toe">kayo's Blog</a>
-                                </li>
-                                <li>
-                                    <a href="" title="Muo's Blog" rel="title-tip" class="f-toe">Muo's Blog</a>
-                                </li>
-                                <li>
-                                    <a href="" class="f-toe">+ 申请链接</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="copyright">
-                            <!-- Copyright © 2012-2016 zhangqifei. All Rights Reserved. --> </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </article>
-    <script src="js/jquery.js"></script>
-    <script src="js/zhangqifei.scrollPage.min.js"></script>
-    <script src="js/index.min.js"></script>
-    <!--     <div style="display: none;">
-    <script src="js/z_stat.php" language="JavaScript"></script>
-    </div>
-    -->
+
+        </div>
+
+
+    </section>
+    <script type="text/javascript" charset="utf-8" src="js/swiper.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/index.js"></script>
 </body>
 </html>
+
