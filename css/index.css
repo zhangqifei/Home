@@ -2832,3 +2832,56 @@ html, body, .main, .swiper-container, .swiper-slide {
         transform: scale3d(1, 1, 1);
     }
 }
+
+.page5 .info span:nth-child(8){
+    top: 9.5rem;
+    left: 2rem;
+    width: 2rem;
+    height: 0.8rem;
+    padding-top: 0.4rem;
+    opacity: 0;
+}
+#page5 .info span:nth-child(8){
+    -webkit-animation: pulseRadius 2s linear 4.5s 1 both;
+    animation: pulseRadius 2s linear 4s 1 both;
+}
+@-webkit-keyframes pulseRadius {
+    from {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    0%{
+        opacity:0;
+    }
+    50% {
+        opacity:1;
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+
+    to {
+        opacity:1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+@keyframes pulseRadius {
+    from {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    0%{
+        opacity:0;
+    }
+    50% {
+        opacity:1;
+        -webkit-transform: scale3d(1.35, 1.35, 1.35);
+        transform: scale3d(1.35, 1.35, 1.35);
+    }
+
+    to {
+        opacity:1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
