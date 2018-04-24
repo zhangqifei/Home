@@ -2843,7 +2843,7 @@ html, body, .main, .swiper-container, .swiper-slide {
 }
 #page5 .info span:nth-child(8){
     -webkit-animation: pulseRadius 2s linear 4.5s 1 both;
-    animation: pulseRadius 2s linear 4s 1 both;
+    animation: pulseRadius 2s linear 4.5s 1 both;
 }
 @-webkit-keyframes pulseRadius {
     from {
