@@ -1374,8 +1374,8 @@ html, body, .main, .swiper-container, .swiper-slide {
     opacity:0;
 }
 #page2 span.time1{
-    -webkit-animation: zoomInDown 1s linear 15s 1 both;
-    animation: zoomInDown 1s linear 15s 1 both;
+    -webkit-animation: zoomInDown 1s linear 14s 1 both;
+    animation: zoomInDown 1s linear 14s 1 both;
 }
 
 .page2 span.detail1{
@@ -1394,8 +1394,8 @@ html, body, .main, .swiper-container, .swiper-slide {
 }
 
 #page2 span.detail1{
-    -webkit-animation: zoomInDown 1s linear 14s 1 both;
-    animation: zoomInDown 1s linear 14s 1 both;
+    -webkit-animation: zoomInDown 1s linear 15s 1 both;
+    animation: zoomInDown 1s linear 15s 1 both;
 }
 @-webkit-keyframes zoomInDown {
     from {
