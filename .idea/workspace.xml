@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="391ff413-4057-468d-ab01-b3d181ab87eb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="391ff413-4057-468d-ab01-b3d181ab87eb" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -20,65 +16,7 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="153" column="37" selection-start-line="153" selection-start-column="37" selection-end-line="153" selection-end-column="37" />
-              <folding>
-                <element signature="e#4646#4652#0" expanded="true" />
-                <element signature="e#4653#4659#0" expanded="true" />
-                <element signature="e#4660#4666#0" expanded="true" />
-                <element signature="e#4809#4815#0" expanded="true" />
-                <element signature="e#4815#4821#0" expanded="true" />
-                <element signature="e#4888#4894#0" expanded="true" />
-                <element signature="e#4900#4906#0" expanded="true" />
-                <element signature="e#5017#5023#0" expanded="true" />
-                <element signature="e#5035#5041#0" expanded="true" />
-                <element signature="e#5143#5149#0" expanded="true" />
-                <element signature="e#5167#5173#0" expanded="true" />
-                <element signature="e#5223#5229#0" expanded="true" />
-                <element signature="e#5253#5259#0" expanded="true" />
-                <element signature="e#5322#5328#0" expanded="true" />
-                <element signature="e#5358#5364#0" expanded="true" />
-                <element signature="e#5395#5401#0" expanded="true" />
-                <element signature="e#5437#5443#0" expanded="true" />
-                <element signature="e#5495#5501#0" expanded="true" />
-                <element signature="e#5543#5549#0" expanded="true" />
-                <element signature="e#5558#5564#0" expanded="true" />
-                <element signature="e#5612#5618#0" expanded="true" />
-                <element signature="e#5637#5643#0" expanded="true" />
-                <element signature="e#5697#5703#0" expanded="true" />
-                <element signature="e#6366#6372#0" expanded="true" />
-                <element signature="e#6373#6379#0" expanded="true" />
-                <element signature="e#6380#6386#0" expanded="true" />
-                <element signature="e#6387#6393#0" expanded="true" />
-                <element signature="e#6394#6400#0" expanded="true" />
-                <element signature="e#6401#6407#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="2842" column="1" lean-forward="true" selection-start-line="2842" selection-start-column="1" selection-end-line="2842" selection-end-column="1" />
-              <folding>
-                <element signature="e#57634#57727#0" />
-                <element signature="e#57900#58008#0" />
-                <element signature="e#58147#58565#0" />
-                <element signature="e#58566#58976#0" />
-                <element signature="e#59255#59673#0" />
-                <element signature="e#59674#60084#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -115,11 +53,6 @@
             <path>
               <item name="Home" type="b2602c69:ProjectViewProjectNode" />
               <item name="Home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -233,16 +166,15 @@
       <workItem from="1493112539615" duration="2134000" />
       <workItem from="1521979235235" duration="104000" />
       <workItem from="1522041581832" duration="17000" />
-      <workItem from="1524551292142" duration="1036000" />
+      <workItem from="1524551292142" duration="1206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3291000" />
+    <option name="totallyTimeSpent" value="3461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.15820895" />
       <window_info anchor="bottom" id="TODO" order="9" />
@@ -251,7 +183,7 @@
       <window_info anchor="bottom" id="Run" order="5" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3289256" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -315,6 +247,21 @@
     <entry file="file://$PROJECT_DIR$/css/index1.css" />
     <entry file="file://$PROJECT_DIR$/1.html" />
     <entry file="file://$PROJECT_DIR$/1.html" />
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="2842" column="1" lean-forward="true" selection-start-line="2842" selection-start-column="1" selection-end-line="2842" selection-end-column="1" />
+          <folding>
+            <element signature="e#57634#57727#0" />
+            <element signature="e#57900#58008#0" />
+            <element signature="e#58147#58565#0" />
+            <element signature="e#58566#58976#0" />
+            <element signature="e#59255#59673#0" />
+            <element signature="e#59674#60084#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -349,21 +296,6 @@
             <element signature="e#6387#6393#0" expanded="true" />
             <element signature="e#6394#6400#0" expanded="true" />
             <element signature="e#6401#6407#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="2842" column="1" lean-forward="true" selection-start-line="2842" selection-start-column="1" selection-end-line="2842" selection-end-column="1" />
-          <folding>
-            <element signature="e#57634#57727#0" />
-            <element signature="e#57900#58008#0" />
-            <element signature="e#58147#58565#0" />
-            <element signature="e#58566#58976#0" />
-            <element signature="e#59255#59673#0" />
-            <element signature="e#59674#60084#0" />
           </folding>
         </state>
       </provider>
